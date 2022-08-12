@@ -1,0 +1,30 @@
+header .container {
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;;
+}
+
+.container .grid-3 {
+  grid-template-columns: 2fr 1.5fr 2fr;
+}
+
+img {
+  box-shadow: none;
+}
+
+/* Small screens and under */
+@media (max-width: 960px) {
+  .cards .grid-4 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Mobile and under */
+@media (max-width: 575px){
+  .cards .grid-4 {
+    grid-template-columns: 1fr;
+  }
+}
