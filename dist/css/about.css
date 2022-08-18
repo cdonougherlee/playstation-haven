@@ -15,6 +15,10 @@
   max-height: 100%;
 }
 
+.italics {
+  font-style: italic;
+}
+
 
 @media (max-width: 960px) {
   .title .grid {
